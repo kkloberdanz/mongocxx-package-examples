@@ -1,8 +1,25 @@
 # Mongo C++ Driver Conan Package Example
 
+## Setup
+
+```sh
+$ make bootstrap
+```
+
+Alternatively:
+```sh
+$ pip install conan
+$ conan profile detect --force
+```
+
 ## Build
 
 ```
+$ make
+```
+
+Alternatively:
+```sh
 $ conan install conanfile.txt --output-folder=build --build=missing
 $ cmake \
 	-B build \
