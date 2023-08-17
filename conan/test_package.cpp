@@ -3,7 +3,6 @@
 
 #include <mongocxx/client.hpp>
 #include <mongocxx/instance.hpp>
-#include <mongocxx/uri.hpp>
 
 // Compilation check
 #include <bsoncxx/json.hpp>
