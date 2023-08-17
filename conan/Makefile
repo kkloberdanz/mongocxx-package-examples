@@ -23,3 +23,4 @@ bootstrap:
 .PHONY:
 clean:
 	rm -rf build
+	rm -f CMakeUserPresets.json
